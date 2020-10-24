@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  color: #17d3de;
+  font-size: 5rem;
+  font-family: "Exo 2", sans-serif;
+  letter-spacing: 5px;
+}
+
+/* media query for tablet view bug*/
+@media (max-width: 600px) {
+  .clock {
+    font-size: 4.5rem;
+    letter-spacing: 3px;
+  }
+}
+
+/* media query for large screen devices*/
+@media (max-width: 515px) {
+  .clock {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+}
+
+/* media query for medium and small screen devices */
+@media (max-width: 370px) {
+  .clock {
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+  }
+}
